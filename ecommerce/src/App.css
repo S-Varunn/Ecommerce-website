@@ -1,0 +1,11 @@
+.navbar {
+  height: 200px;
+}
+.bodie {
+  height: 500px;
+  background-image: url("./fish.jpg");
+  background-size: 500px 500px;
+}
+.footer {
+  height: 200px;
+}
