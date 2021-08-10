@@ -1,0 +1,50 @@
+.Nbar {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Akaya Kanadaka", cursive;
+  background: linear-gradient(to right, #387cff, #72a2ff, #8bcdff, #5aff7d);
+  font-size: 15px;
+}
+.fa-biohazard {
+  background: linear-gradient(to right, rgb(255, 43, 43), rgb(0, 0, 0));
+  border-radius: 100px;
+  margin: 5px;
+  font-size: 25px;
+  color: #eee;
+}
+.logo {
+  background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(110, 7, 179));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 20px;
+  cursor: pointer;
+  font-family: "Sansita Swashed", cursive;
+}
+.fa-times,
+.fa-bars {
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: center;
+}
+.nav-links {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+.nav-links:hover {
+  background-color: ;
+}
