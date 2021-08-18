@@ -1,16 +1,18 @@
-import React, { Component } from "react";
-import { Menu } from "./Menu";
+import React, {Component} from "react";
+import {Menu} from "./Menu";
+import Button from "../Button";
 import "./navbar.css";
 class Navbar extends Component {
-  state = { clicked: false };
+  state = {clicked: false};
   handleClick = () => {
-    this.setState({ clicked: !this.state.clicked });
+    this.setState({clicked: !this.state.clicked});
   };
   render() {
     return (
       <nav className="Nbar">
-        <h1 className="logo">Bubbles</h1>
-        <i class="fas fa-biohazard"></i>
+        <h1 className="logo">
+          Bubbles<i class="fas fa-biohazard"></i>
+        </h1>
 
         <div className="menuIcon" onClick={this.handleClick}>
           <i
@@ -28,6 +30,9 @@ class Navbar extends Component {
             );
           })}
         </ul>
+        <React.Fragment>
+          <Button />
+        </React.Fragment>
       </nav>
     );
   }
